@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+   
+
+static int k;
+
+void main(void)
+{
+	/**********
+	
+	int n1,n2,n3;
+	printf("Please Enter number 1: ");
+	scanf("%d",&n1);
+	printf("Please Enter number 2: ");
+	scanf("%d",&n2);
+	printf("Please Enter number 3: ");
+	scanf("%d",&n3);
+	printf("number 3: %d\n",n3);
+	printf("number 2: %d\n ",n2);
+	printf("number 1: %d\n",n1);
+	
+	************/
+
+
+ int ex;
+ arr [10]={1,2,3,4,5};
+    ex=1|2|3|4;
+    printf("%d",arr[5]);
+
+}
+	

@@ -1,0 +1,189 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+void main(void)
+{
+	/**********
+	\\assignment1
+	***********
+	
+	int array[10];
+	int val,count=0;
+	for(int i=0; i<10; i++)
+	{
+		printf("Enter Number %d:", i+1);
+		scanf("%d",&array[i]);
+	}
+	printf("Enter the value to search:");
+	scanf("%d",&val);
+	for(int i=0; i<10; i++)
+	{
+		if(array[i]==val)
+		{
+			printf("Value is exist at element number %d",i+1);
+			count++;
+		}
+	}
+	if(!count)
+		printf("Value not exist");
+	
+	************/
+	/************
+	\assignment 2
+	***********
+	
+	int id,password;
+	
+	printf("Enter his ID ");
+	scanf("%d",&id);
+	
+	switch(id)
+	{
+		case 1234: printf("Enter your password ");
+		           scanf("%d",&password);
+		           if(password==12)
+		            	printf("Aliaa");
+		           else
+			          printf("Incorrect password");
+		break;
+		
+		case 5678: printf("Enter your password ");
+		           scanf("%d",&password);
+		           if(password==56)
+		            	printf("Youssef");
+		           else
+			          printf("Incorrect password ");
+		break;
+		
+		case 9999: printf("Enter your password ");
+		           scanf("%d",&password);
+		           if(password==99)
+		            	printf("Asmaa");
+		           else
+			          printf("Incorrect password");
+		break;
+		
+		default : printf("Incorrect ID ");
+		
+	}
+	************/
+	
+	/***********
+	\assignment3
+	************
+	
+	int n1, n2, n3;
+	
+	printf("Enter number 1:");
+	scanf("%d",&n1);
+	printf("Enter number 2:");
+	scanf("%d",&n2);
+	printf("Enter number 3:");
+	scanf("%d",&n3);
+	
+	if(n1>=n2 && n1>=n3)
+		printf("Maximum number is %d ",n1);
+	else if(n2>=n3 && n2>=n3)
+		printf("Maximum number is %d ",n2);
+	else
+		printf("Maximum number is %d ",n3);
+	
+  **********/
+  
+  /*********
+  assignment1
+  **********
+  
+  int n1,n2, sum=0;
+  while(1)
+  {
+	  printf("Enter the first number " );
+	  scanf("%d",&n1);
+	  printf("Enter the second number " );
+	  scanf("%d",&n2);
+	  printf("Enter the summation = %d\n \n", n1+n2 );
+  } 
+   *************/
+   /************
+   assignment2
+   ************
+   int id,password, count=0;
+	
+	printf("Enter his ID ");
+	scanf("%d",&id);
+	
+	switch(id)
+	{
+		case 1234: printf("please Enter your password ");
+          		   for(int i=0; i<3 ; i++)
+		           {
+		             scanf("%d",&password);
+		             if(password==7788){
+		            	printf("Welcome Ahmed");
+						count++;
+						break;
+					 }
+		           else
+			          printf("try again ");
+				   }
+				   if(!count)
+					   printf("Incorrect password for 3 times. No more tries");
+		break;
+		
+		case 5678: printf("please Enter your password ");
+          		   for(int i=0; i<3 ; i++)
+		           {
+		             scanf("%d",&password);
+		             if(password==5566){
+		            	printf("Welcome Amr");
+						count++;
+						break;
+					 }
+		           else
+			          printf("try again ");
+				   }
+				   if(!count)
+					   printf("Incorrect password for 3 times. No more tries");
+		break;
+		
+		case 9870: printf("please Enter your password ");
+          		   for(int i=0; i<3 ; i++)
+		           {
+		             scanf("%d",&password);
+		             if(password==1122){
+		            	printf("Welcome Wael");
+						count++;
+						break;
+					 }
+		           else
+			          printf("try again ");
+				   }
+				   if(!count)
+					   printf("Incorrect password for 3 times. No more tries");
+		break;
+		
+		default : printf("IYou are not registered ");
+		
+	}
+   *************/
+   
+   int height, star=1;
+   printf("Please Enter the height of the pyrimed  ");
+   scanf("%d",&height);
+   
+   for(int i=0; i<height ; i++)
+   {
+    for(int j= height-1; j>=i;j--)
+	{
+     printf(" ");
+	}
+	 for(int j=0 ; j<star;j++)
+	{
+     printf("*");
+	}
+    printf("\n");
+	star=star+2;
+   }	
+   
+}
